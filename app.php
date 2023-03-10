@@ -6,7 +6,7 @@
 	<script>
 		$(document).ready(function() {
 			$('#challenge-btn').click(function() {
-				$.get('get_challenge.php', function(data) {
+				$.get('config.php', function(data) {
 					$('#challenge').text(data);
 				});
 			});
