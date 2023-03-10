@@ -1,9 +1,9 @@
 <?php
 // Connect to database
 $host = 'localhost';
-$user = 'username';
-$password = 'password';
-$dbname = 'database';
+$user = 'mubtfezwth';
+$password = 'jKR2YyjB22';
+$dbname = 'mubtfezwth';
 $conn = mysqli_connect($host, $user, $password, $dbname);
 
 // Select a random challenge
